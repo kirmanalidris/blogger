@@ -1,0 +1,36 @@
+/*== HOMEPAGE ==*/
+@media (max-width:900px){#HTML6, #PopularPosts1, #BlogArchive1, #Label1{display:none;}}
+@media (min-width:900px){.post-body{float:left; width:calc(50% - 20px); margin:10px; height:600px;}
+.label-home, .jump-link, .kirman-comment-count, .subscribe-wrapper &gt; h1{display:none;}}
+.post-title, #HTML100, .post-footer{display:none;}
+.kirman-post-body-con{padding:0px}
+@media (max-width:900px){.post-body{margin:10px 0;}}
+.post-body img{width:100%;}
+.post-body .kirman-fo-home{margin-bottom:20px; padding:20px; text-align: left;}
+.post-body .kirman-fo-home .title{letter-spacing:1px; font-family: &#39;Abril Fatface&#39;, cursive; font-size:2rem; text-transform:capitalize; font-weight:400;}
+.post-body .kirman-fo-home .snippet{}
+.post-body .kirman-fo-home .detail{overflow:hidden; display:flex; align-items: center; margin:20px 0;}/* container untuk label-home, label-home, post-by */
+.post-body .kirman-fo-home .detail .post-by-img{width:30px; height:30px; border-radius:100px; border:2px solid #eee;}
+.post-body .kirman-fo-home .detail .post-by{font-size:10px; margin:0 10px;}
+.post-body .kirman-fo-home .detail .label-home{font-size:10px;}
+.post-body .kirman-fo-home .detail .kirman-comment-count{font-size:10px; margin:0 10px;}
+.post-body .kirman-fo-home .detail .jump-link{font-size:10px; padding:5px 10px; border-radius:5px; border:1px solid #e0e0e0;}
+/*== HOMEPGE ==*/
+/*== FEATURED ==*/
+.kirman-featured-con{}
+.kirman-featured-img{width:100%;}
+.kirman-featured-isi-con{padding:20px;}
+.kirman-featured-title{letter-spacing:1px; font-family: &#39;Abril Fatface&#39;, cursive; font-size:2rem; text-transform:capitalize; font-weight:400;}
+.kirman-featured-desk{}
+.kirman-featured-jumplink{font-size:10px; padding:10px; border-radius:5px; border:1px solid #e0e0e0;}
+/*== FEATURED ==*/
+/*== PAGINATION ==*/
+.blog-pager {clear:both; width:auto; line-height:17px; display:flex; position:relative; justify-content:center; text-align:left; overflow:visible; margin:20px 0 0 0; padding:20px 0 0 0;}
+.blog-pager-older-link-1{display:flex; align-items: center; margin:auto; justify-content; center; background:#fff; color:inherit;font-size:14px; font-weight:600; padding:4px 14px;}
+.showpage a, .showpageNum a, .showpagePoint {position:relative; border:1px solid #e0e0e0; background:#fff; display:inline-block; font-size:13px; color:inherit; margin:0 4px 0 0;padding:7px 13px; text-decoration:none; border-radius:3px; transition:all .3s}
+.showpageOf {display:none;}
+.showpageNum a:before{ content:&#39;&#39;; position:absolute; top:0; bottom:0; left:0; right:0; box-shadow:inset 0 -2px 2px rgba(0,0,0,0.02); transition:box-shadow 0.5s}
+.showpage a:hover, .showpageNum a:hover {background:#000; color:#fff; position:relative}
+.showpagePoint, .showpagePoint:hover {background:#000; color:#fff}
+span.label-info a.label-block:nth-child(n+2) {display:none}
+/*== PAGINATION ==*/

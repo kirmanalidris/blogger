@@ -3,9 +3,4 @@
   <h1 align="center">Kirman Alidris</h1>
   <p align="center">Sekumpulan 
   kode sumber untuk template blogger<p>
-  <p align="center">
-    <a href="https://github.com/timgrossmann/InstaPy/blob/master/LICENSE">
-      <img src="https://img.shields.io/badge/license-GPLv3-blue.svg" />
-    </a>
-    </p>
 </p>

@@ -31,8 +31,18 @@
 /*== FEATURED ==*/
 
 /*== BLOG PAGER HOMEPAGE ==*/
-.blog-pager-older-link{transition:.4s;background:#2196F3;color:#fff; border-radius:4px; padding:10px 20px;}
-.blog-pager-older-link{font-weight:400;}
-.blog-pager {clear:both; padding:20px 0; width:auto; line-height:17px; display:flex; position:relative; justify-content:center; margin:30px 0 0 0;}
-.blog-pager img{width:60px; height:auto;}
+.blog-pager a.blog-pager-newer-link,.blog-pager a.blog-pager-older-link,.blog-pager a.js-load,.blog-pager span.js-loaded,.blog-pager a.js-loading{background:#2196F3;color:#ffffff;}
+.js-loading:after{border:2px solid #ffffff;}
+.blog-pager a.js-load:hover,.blog-pager span.js-loaded:hover,.blog-pager span.js-loading:hover,a.blog-pager-newer-link:hover,a.blog-pager-older-link:hover{background:#925035;}
+.blog-pager{text-align:center;font-size:12px;font-size:.75rem;text-transform:uppercase;}
+.blog-pager a.blog-pager-newer-link,.blog-pager a.blog-pager-older-link{display:inline-block;border-radius:4px;padding:6px 12px;-webkit-transition:all .2s;transition:all .2s;}
+.blog-pager a.blog-pager-older-link{float:right;background:#2196F3}
+.blog-pager a.blog-pager-older-link:after{content:"";border-width:0 2px 2px 0;display:inline-block;padding:3px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);}
+.blog-pager a.blog-pager-newer-link{float:left;}
+.blog-pager a.blog-pager-newer-link:before{content:"";border-width:0 0 2px 2px;display:inline-block;padding:3px;-webkit-transform:rotate(45deg);transform:rotate(45deg);}
+.blog-pager:after{content:"";display:block;clear:both;}
+.blog-pager .js-load,.blog-pager .js-loaded,.blog-pager .js-loading{display:inline-block;border-radius:4px;padding:8px 20px;-webkit-transition:all .2s;transition:all .2s;}
+.blog-pager .js-loading:after{content:"";width:10px;height:10px;vertical-align:middle;margin-left:.5rem;margin-bottom:3px;border-radius:100%;display:inline-block;border-top:2px solid transparent;-webkit-animation:load-animate 1s linear infinite;animation:load-animate 1s linear infinite;}
+@-webkit-keyframes load-animate{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);opacity:.35;}to{-webkit-transform:rotate(1turn);transform:rotate(1turn);}}
+@keyframes load-animate{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);opacity:.35;}to{-webkit-transform:rotate(1turn);transform:rotate(1turn);}}
 /*== BLOG PAGER HOMEPAGE ==*/

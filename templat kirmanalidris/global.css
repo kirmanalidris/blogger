@@ -190,10 +190,9 @@ html{scroll-behavior:smooth}
   
 /*== MENU ==*/
 .hidden{display:none}
-@media(min-width:1680px){.kirman_sidenav{margin-left:300px;}}
-@media(min-width:1200px){.kirman_sidenav{margin-left:180px;}}
-@media(min-width:900px){.kirman_sidenav{left:0;width:200px;border:1px solid #e0e0e0;}.kirman-header,.kirman-footer-con{display:none}}
-@media(max-width:900px){.kirman_sidenav{left:-200px;width:250px;}.kirman-header{display:flex}.kirman_sidenav{left:-250px}}
+
+@media (min-width:900px){.kirman_sidenav{width:200px;}.kirman-header,.kirman-footer-con{display:none}}
+@media (max-width:900px){.kirman_sidenav{left:-200px;width:250px;}.kirman-header{display:flex}.kirman_sidenav{left:-250px}}
 .m-h{padding-top:30px;text-align:center;padding-bottom:30px;border-bottom:1px solid #e0e0e0}
 .m-h >h1{font-weight:1000;text-transform:uppercase;padding:0;margin:0;color:#2196F3}
 .m-h >p{margin:0;padding:0;margin-top:0;font-size:10px;color:gray}

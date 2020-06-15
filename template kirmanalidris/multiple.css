@@ -18,7 +18,7 @@
 @media (max-width:900px){#HTML9{margin-top:50px;}}
 @media only screen and (max-width: 600px) {.kirman_tampan{border-radius:0 0 50px 50px;z-index:-4;background:#2196F3;position:absolute;top:0;left:0;right:0;width:100%; height:320px;}.post-body .kirman-fo-home .detail{}.post-body .kirman-fo-home .snippet{color:gray;font-size:12px;line-height:1.4em;display:block;margin-bottom:-35px;}.post-body { width:calc(100% - 10px); float:none; height: auto; margin-bottom:15px; } }
 /*== HOMEPGE ==*/
-  
+
 /*== FEATURED ==*/
 .kirman-featured-con{background:#fff;position:relative;overflow:hidden;border-radius:8px;width:calc(100 - 20px); }
 .kirman-featured-img{width:100%; height:auto; border-radius:8px 8px 0 0;}

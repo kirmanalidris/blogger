@@ -66,7 +66,6 @@ body{background:#E3F2FD}
 /*== BREADCRUMS ==*/
 
 /*== BLOCKQUOTE DAN BUTTON DAN LI==*/
-.post-body li{list-style:square}
 .post-body blockquote{transition:.4s;border:1px solid #2196F3;position:relative;border-radius:10px;padding:10px 10px 10px 60px;margin:0;background-color:#E3F2FD;color:inherit}
 .post-body blockquote:before{content:"!";background:#2196F3;border-radius:100px;border:1px solid #fff;position:absolute;right:90%;color:#fff;font-size:1em;padding:1px 10px;font-weight:800}
 .post-body blockquote:hover{color:#fff;background:#2196F3}

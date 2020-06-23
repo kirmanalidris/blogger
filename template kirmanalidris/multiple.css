@@ -1,3 +1,4 @@
+
 /*== HOMEPAGE ==*/
 .post-title, #HTML100, .post-footer{display:none;}
 @media only screen and (max-width: 768px){
@@ -26,7 +27,7 @@ padding:10px; margin:20px 0;}
 .kirman-post-body-con{
 padding:0px 0px;margin:0px -5px;
 }
-.post-body{height:320px;float:left;width:calc(50% - 10px);margin:10px 5px;border-radius:10px;overflow:hidden; background:#fff;box-shadow: 10px 10px 40px 0px rgba (0,0,0,0,07);}
+.post-body{color:inherit;height:320px;float:left;width:calc(50% - 10px);margin:10px 5px;border-radius:10px;overflow:hidden; background:#fff;box-shadow: 10px 10px 40px 0px rgba (0,0,0,0,07);}
 .post-body img{width:100%; height:auto;}
 .post-body .kirman-fo-home{padding:15px;}
 .post-body .kirman-fo-home .title{font-size:16px;line-height:1.2em;}
@@ -74,12 +75,12 @@ display:block;width:100%; height:auto;}}
 .blog-pager{text-align:center;font-size:12px;font-size:.75rem;text-transform:uppercase;}
 .blog-pager a.blog-pager-newer-link,.blog-pager a.blog-pager-older-link{display:inline-block;border-radius:4px;padding:6px 12px;-webkit-transition:all .2s;transition:all .2s;}
 .blog-pager a.blog-pager-older-link{float:right;background:#2196F3}
-.blog-pager a.blog-pager-older-link:after{content:"";border-width:0 2px 2px 0;display:inline-block;padding:3px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);}
+.blog-pager a.blog-pager-older-link:after{content:&quot;&quot;;border-width:0 2px 2px 0;display:inline-block;padding:3px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);}
 .blog-pager a.blog-pager-newer-link{float:left;}
-.blog-pager a.blog-pager-newer-link:before{content:"";border-width:0 0 2px 2px;display:inline-block;padding:3px;-webkit-transform:rotate(45deg);transform:rotate(45deg);}
-.blog-pager:after{content:"";display:block;clear:both;}
+.blog-pager a.blog-pager-newer-link:before{content:&quot;&quot;;border-width:0 0 2px 2px;display:inline-block;padding:3px;-webkit-transform:rotate(45deg);transform:rotate(45deg);}
+.blog-pager:after{content:&quot;&quot;;display:block;clear:both;}
 .blog-pager .js-load,.blog-pager .js-loaded,.blog-pager .js-loading{display:inline-block;border-radius:4px;padding:8px 20px;-webkit-transition:all .2s;transition:all .2s;}
-.blog-pager .js-loading:after{content:"";width:10px;height:10px;vertical-align:middle;margin-left:.5rem;margin-bottom:3px;border-radius:100%;display:inline-block;border-top:2px solid transparent;-webkit-animation:load-animate 1s linear infinite;animation:load-animate 1s linear infinite;}
+.blog-pager .js-loading:after{content:&quot;&quot;;width:10px;height:10px;vertical-align:middle;margin-left:.5rem;margin-bottom:3px;border-radius:100%;display:inline-block;border-top:2px solid transparent;-webkit-animation:load-animate 1s linear infinite;animation:load-animate 1s linear infinite;}
 @-webkit-keyframes load-animate{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);opacity:.35;}to{-webkit-transform:rotate(1turn);transform:rotate(1turn);}}
 @keyframes load-animate{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);opacity:.35;}to{-webkit-transform:rotate(1turn);transform:rotate(1turn);}}
 /*== BLOG PAGER HOMEPAGE ==*/

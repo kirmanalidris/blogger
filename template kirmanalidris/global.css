@@ -18,6 +18,9 @@
 .nightmode .more_vert{background:var(--primary);color:var(--color);}
 .nightmode .kirmanRelatedMiddle{background:var(--primary);color:var(--color);}
 .nightmode .kirmanRelatedMiddle ul li a{color:var(--color);}
+.nightmode .search_sidebar input[type=search]{background:var(--primary);color:var(--color);}
+.nightmode .search_sidebar button{background:var(--primary);color:var(--color);}
+.nightmode .menu_atas .img_con{background:var(--secondary);color:var(--color);}
 
 
 /*widgets title*/
@@ -91,7 +94,7 @@ html{scroll-behavior:smooth}
 .kirman_tampan_atas{position:absolute;top:0;right:0;left:0;background:#2196F3;height:400px;border-radius:0 0 100px 100px;z-index:-1}
 .clear{clear:both}
 @media only screen and (min-width:768px){
-  .sticky{position:fixed;top:20px;width:300px;z-index:4000;transition:.4s}
+  .sticky{position:fixed;top:30px;width:300px;z-index:4000;transition:.4s}
   .kirman_tampan_atas,#kirman_footer{visibility:hidden;display:none}
 }
 /* post label */
@@ -129,12 +132,16 @@ html{scroll-behavior:smooth}
 @font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/materialicons/v52/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2')}
 .material-icons{font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased}
 /*== HEADER ==*/
-.header_con{z-index:4000;position:fixed;background:#fff;top:0;left:0;right:0;padding:20px;display:flex;align-items:center;box-shadow:0 0 8px 1px rgb(0,0,0,0.12)}
-.header_con i{margin-right:20px;color:#000;font-size:18px}
-.header_con h1{margin:0;padding:0;font-size:14px;text-transform:uppercase}
-@media only screen and (min-width:768px){
-  .header_con{visibility:hidden}
-}
+.header_con{background:#fff;z-index:6000;display:flex;align-items:center;padding:10px 20px 15px 20px;box-shadow:0 0 8px 1px rgb(0,0,0,0.12);position:fixed;top:0;left:0;right:0}
+.header_con a{color:inherit}
+.header_con .web_title{font-size:16px;padding:0;margin:0}
+.header_con i{font-size:20px}
+.header_con .search_form{position:absolute;top:0;left:0;bottom:0;right:80px;padding:10px 40px;outline:none;border:none;display:none}
+.header_con .to_home{margin-right:15px;margin-top:5px}
+.header_con .btn_search{position:absolute;right:55px;top:15px}
+.header_con .btn_menu{position:absolute;right:20px}
+@media only screen and (min-width: 768px){.header_con{visibility:hidden;}}
+  
 /*== Menu ==*/
 a{text-decoration:none;color:inherit}
 .kirman_nav_bawah li{list-style:none;padding:0;margin:0}
@@ -297,3 +304,27 @@ body{color:#444;background:#E3F2FD;padding:0;margin:0}
   #HTML9{width:calc(100% - 240px);height:90px;margin:10px 20px 0 220px;border-radius:10px;border:1px solid rgb(0,0,0,0.08)}
   #HTML8{display:none}
 }
+/*== search sidebar ==*/
+  .search_sidebar{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  .search_sidebar input[type=search]{
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+    width:calc(300px - 30px);
+  }
+  .search_sidebar button{
+    outline: none;
+    border: none;
+    padding:10px;
+    margin-left: -8px;
+    background: #2196F3;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+  }
+  @media only screen and (max-width: 768px){.search_sidebar{display: none;}}

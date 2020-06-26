@@ -1,4 +1,5 @@
 
+
 /*==Night Mode==*/
 :root {
   --body: #000; 
@@ -163,7 +164,7 @@ a{text-decoration:none;color:inherit}
   .kirman_nav_bawah{display:none;visibility:hidden}
   .kirman_sidenav{left:;top:0;bottom:0;width:200px}
   /*newsletter,label_category,settings*/
-  .newsletter,.label_category,.settings,.kirman_share{left:calc(50% - 290px);right:;margin-bottom:50px}
+  .newsletter,.label_category,.settings,.kirman_share{width:420px;left:calc(50% - 290px);right:;margin-bottom:50px}
 }
 @media only screen and (max-width:768px){
   .kirman_sidenav{left:-300px;top:10px;bottom:10px;border-radius:0 10px 10px 0;width:220px}

@@ -3,5 +3,5 @@
   <h1 align="center">Kirman Alidris</h1>
   <p align="center">Sekumpulan 
   kode sumber untuk template blogger<p>
-<p style="font-size:12px;color:gray;">Copyright © 2020 kirmanalidris</p>
+<p>Copyright © 2020 kirmanalidris</p>
 </p>

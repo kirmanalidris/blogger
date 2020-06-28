@@ -1,1 +1,2 @@
-# Digunakan untuk template khusus untuk saya sendiri
+# Warning!...
+<p> Dilarang keras menyalin dan menempel pada web tidak memiliki ijin dari penulis atau creator dari kode tersebut</p>

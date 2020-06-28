@@ -6,7 +6,7 @@
 <p>Copyright © 2020 kirmanalidris</p>
 </p>
 <center>
-# Warning!...
+<h3>Warning!...</h3>
 <p> Dilarang keras menyalin dan menempel pada web tidak memiliki ijin dari penulis atau creator dari kode tersebut</p>
 
 </center>

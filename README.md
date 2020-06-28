@@ -3,10 +3,10 @@
   <h1 align="center">Kirman Alidris</h1>
   <p align="center">Sekumpulan 
   kode sumber untuk template blogger<p>
-<p>Copyright © 2020 kirmanalidris</p>
+
 </p>
 <center>
 <h3>Warning!...</h3>
 <p> Dilarang keras menyalin dan menempel pada web tidak memiliki ijin dari penulis atau creator dari kode tersebut</p>
-
+<p>Copyright © 2020 kirmanalidris</p>
 </center>

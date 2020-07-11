@@ -6,11 +6,9 @@
   document.write('  <p>\n');
   document.write('    Jika memang template ini milik anda resmi dari designer silahkan verifikasi domain yang akan menggunakan template ini\n');
   document.write('  </p>\n');
-
-  document.write('  <br/><br/><a href="#">\n');
+  document.write('  <br/><br/><a href="https://api.whatsapp.com/send?phone=6285722115950&text=Assalamualaikum%2C%20saya%20mau%20verifikasi%20domain%20template%2C%20%5Btuliskan%20domain%20anda%20disini%5D%20%5Btuliskan%20gmail%20anda%20disini%5D">\n');
   document.write('  Verifikasi domain\n');
   document.write('  </a>\n');
-
   document.write('</div>\n');
 
 
